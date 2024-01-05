@@ -102,6 +102,17 @@ nav a{
 
 /* main section style */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.main-section{
+    margin-top: 150px;
+}
+
 /* about section style */
 
 .about{
@@ -109,5 +120,48 @@ nav a{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     background: #FD6E0A1A;
-    margin-top: 130px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.About-info-containner{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+/* skill related style */
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+
+.skill-container{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif
+    gap
+    
+}
+.skill{
+    padding: 20px;
+    border-radius: 5px;
+    background: #a8a3a3;
+    box-shadow: 0px 6px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    color: white;
+
+}
+/* Resume section */
+
+.resume-colum-title{
+
+    color#474747;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
 }
