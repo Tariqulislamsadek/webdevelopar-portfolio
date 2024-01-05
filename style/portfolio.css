@@ -25,6 +25,16 @@ body{
 
 }
 
+.section-description{
+    color:#757575;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+    font-size: 18px;
+    font-weight: 400
+
+
+}
+
 /* nav style */
 nav{
     display: flex;
@@ -99,4 +109,5 @@ nav a{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     background: #FD6E0A1A;
+    margin-top: 130px;
 }
